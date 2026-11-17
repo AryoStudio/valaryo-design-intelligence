@@ -1,0 +1,4 @@
+interface:
+  display_name: "VALARYO Design Intelligence"
+  short_description: "Professional adaptive UI/UX design and frontend quality"
+  default_prompt: "Use VALARYO Design Intelligence to inspect this project, define a distinctive design direction, improve UX, implement responsive interfaces, and validate the result with available tools."
