@@ -10,10 +10,10 @@ A professional adaptive UI/UX skill for AI coding agents. It helps plan, design,
 After publishing this repository:
 
 ```bash
-npx skills add <GITHUB_OWNER>/valaryo-design-intelligence
+npx skills add AryoStudio/valaryo-design-intelligence
 ```
 
-Replace `<GITHUB_OWNER>` with the GitHub account or organization that owns the repository. Choose the agent and installation scope when prompted.
+Choose the agent and installation scope when prompted.
 
 ## Manual install for Codex
 
@@ -21,14 +21,14 @@ Windows PowerShell:
 
 ```powershell
 New-Item -ItemType Directory -Force "$HOME\.agents\skills" | Out-Null
-git clone https://github.com/<GITHUB_OWNER>/valaryo-design-intelligence.git "$HOME\.agents\skills\valaryo-design-intelligence"
+git clone https://github.com/AryoStudio/valaryo-design-intelligence.git "$HOME\.agents\skills\valaryo-design-intelligence"
 ```
 
 macOS/Linux:
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/<GITHUB_OWNER>/valaryo-design-intelligence.git "$HOME/.agents/skills/valaryo-design-intelligence"
+git clone https://github.com/AryoStudio/valaryo-design-intelligence.git "$HOME/.agents/skills/valaryo-design-intelligence"
 ```
 
 Other agents use different discovery paths. Follow the current installation guide for your agent. Restart/reload the agent after installation.
